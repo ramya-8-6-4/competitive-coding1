@@ -1,0 +1,8 @@
+arr=[1,4,5,2,7,8,3]
+n=len(arr)
+A,B=2,5
+if check_elements(arr,n,A,B):
+    print("yes, all elements are present in the range.")
+else:
+    print("no, some elements are missing in the range.")
+ 
